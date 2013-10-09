@@ -1,0 +1,25 @@
+{
+   "Groups":{
+      "Test":[
+         {
+            "Test Number":123456,
+            "Channel":"TEST",
+            "environment":"A",
+            "output event":[
+               {
+                  "description":"very good description",
+                  "value":123,
+                  "active":true
+               },
+               {
+                  "description":"another very good description",
+                  "value":456,
+                  "active":true
+               }
+            ],
+            "active":true,
+            "instrument":"ABC"
+         }
+         ]
+       }
+ }
