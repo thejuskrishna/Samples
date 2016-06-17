@@ -14,10 +14,10 @@ class PalindromeTest_Logic{
 		
 		void checkPalindrome(String testString){
 			char[] testReverse_temp = new char[testString.length()];
-			int stringLength = testString.length();
-			int temp_stringLength = stringLength;
+			//int stringLength = testString.length();
+			//int temp_stringLength = testString.length();
 
-			for (int i=temp_stringLength-1, j=0; i>=0 ; i--, j++){
+			for (int i=testString.length()-1, j=0; i>=0 ; i--, j++){
 				testReverse_temp[j] = testString.charAt(i);
 			}		
 				String testReverse = new String (testReverse_temp);
